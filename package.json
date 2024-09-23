@@ -7,7 +7,7 @@
     "server:dev": "npm run server",
     "server:prod": "cross-env NODE_ENV=production npm run server",
     "lint": "eslint . --max-warnings 0",
-    "eject": "ejectjs"
+    "eject": "ejectjs express -m 'test'"
   },
   "dependencies": {
     "@types/compression": "^1.7.5",
