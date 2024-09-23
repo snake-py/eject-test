@@ -6,7 +6,8 @@
     "server": "node --loader ts-node/esm ./server/index.ts",
     "server:dev": "npm run server",
     "server:prod": "cross-env NODE_ENV=production npm run server",
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "eject": "ejectjs"
   },
   "dependencies": {
     "@types/compression": "^1.7.5",
@@ -19,6 +20,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "compression": "^1.7.4",
     "cross-env": "^7.0.3",
+    "eject": "file:../vike-1553/packages/eject",
     "eslint": "^8.55.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -33,5 +35,6 @@
     "vike": "^0.4.183",
     "vite": "^5.4.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {}
 }
