@@ -7,7 +7,7 @@
     "server:dev": "npm run server",
     "server:prod": "cross-env NODE_ENV=production npm run server",
     "lint": "eslint . --max-warnings 0",
-    "assert:npm-eject": "echo 'You can not eject from Vite.'"
+    "assert:eject": "echo 'You can not eject from Vite.'"
   },
   "dependencies": {
     "@types/compression": "^1.7.5",
