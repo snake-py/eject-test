@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "reset": "git reset --hard origin/pnpm && rm -rf node_modules && pnpm i"
+    "reset": "git reset --hard origin/pnpm && rm -rf node_modules && rm -rf ejected && pnpm i"
   },
   "dependencies": {
     "react": "^18.3.1",
