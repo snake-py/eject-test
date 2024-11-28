@@ -11,7 +11,7 @@
     "reset": "git reset --hard origin/pnpm && rm -rf node_modules && rm -rf ejected && pnpm i"
   },
   "dependencies": {
-    "react": "^18.3.1",
+    "react": "link:./ejected/react",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
