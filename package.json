@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "react": "link:./ejected/react",
-    "react-dom": "^18.3.1"
+    "react-dom": "link:./ejected/react-dom"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
